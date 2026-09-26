@@ -25,7 +25,9 @@
 
 ## Checks
 
-For code or test changes, run these from the repository root (LuaJIT and Bash required):
+For code or test changes, run `bash scripts/check.sh` from the repository root when
+that script is present. Otherwise run the commands below. Both routes require
+LuaJIT and Bash.
 
 ```sh
 luajit tests/run.lua
